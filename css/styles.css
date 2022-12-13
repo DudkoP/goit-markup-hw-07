@@ -411,7 +411,8 @@ header{
     cursor: pointer;
 }
 
-.checkbox:hover .check-box{
+.policy-checkbox:hover + .check-box,
+.policy-checkbox:focus + .check-box{
     border: 1.5px solid var(--color-blue);
 }
 
