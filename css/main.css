@@ -288,6 +288,28 @@ a {
   text-decoration: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
+.padding--top {
+  padding-top: 94px;
+}
+
+.padding--bottom {
+  padding-bottom: 94px;
+}
+
 .header__content, .header__navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -443,4 +465,48 @@ a {
 .hero-content__button:hover, .hero-content__button:focus {
   cursor: pointer;
   background: #188CE8;
+}
+
+.advantages__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.advantages__item {
+  display: inline-block;
+  width: 270px;
+}
+.advantages__item:not(:last-child) {
+  margin-right: 30px;
+}
+.advantages__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 270px;
+  height: 140px;
+  background-color: #F5F4FA;
+}
+.advantages__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.advantages__details {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
 }/*# sourceMappingURL=main.css.map */

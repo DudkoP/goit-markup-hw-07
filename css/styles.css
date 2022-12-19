@@ -270,7 +270,7 @@ a {
     background-color: var(--color-f5f4);
 }
 
-.advantages__title--decoration {
+.advantages__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -279,7 +279,7 @@ a {
     color: #212121;
 }
 
-.advantages__title{
+.advantages__title--decoration{
     padding-top: 30px;
     padding-bottom: 10px;
 }
