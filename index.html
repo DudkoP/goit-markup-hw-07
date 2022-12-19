@@ -392,47 +392,46 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button class="modal-close" data-modal-close>
-                <svg width="11" height="11">
+            <button class="modal__button" data-modal-close>
+                <svg class="modal__icon" width="11" height="11">
                     <use href="./image/icons.svg#icon-close"></use>
                 </svg>
             </button>
             <div class="modal-content">
-                <b>Залиште свої дані, ми вам передзвонимо</b>   
-                <form class="modal-form">
-                    <div class="contacts-field">
-                        <label class="label-field" for="name">Ім'я</label>
-                        <input class="contacts-input" type="text" name="name" id="name">
-                        <svg class="contacts-icon" width="12" height="12">
+                <b class="modal-content__title">Залиште свої дані, ми вам передзвонимо</b>   
+                <form class="modal-content__form">
+                    <div class="modal-content__block">
+                        <label class="modal-content__label" for="name">Ім'я</label>
+                        <input class="modal-content__input" type="text" name="name" id="name">
+                        <svg class="modal-content__icon" width="12" height="12">
                             <use href="./image/icons.svg#icon-person"></use>
                         </svg>
                     </div>
-                    <div class="contacts-field">
-                        <label class="label-field" for="tel">Телефон</label>
-                        <input class="contacts-input" type="tel" name="tel" id="tel">
-                        <svg class="contacts-icon" width="13" height="13">
+                    <div class="modal-content__block">
+                        <label class="modal-content__label" for="tel">Телефон</label>
+                        <input class="modal-content__input" type="tel" name="tel" id="tel">
+                        <svg class="modal-content__icon" width="13" height="13">
                             <use href="./image/icons.svg#icon-tel"></use>
                         </svg>
                     </div>
-                    <div class="contacts-field">
-                        <label class="label-field" for="e-mail">E-mail</label>
-                        <input class="contacts-input" type="email" name="email" id="e-mail">
-                        <svg class="contacts-icon" width="15" height="12">
+                    <div class="modal-content__block">
+                        <label class="modal-content__label" for="e-mail">E-mail</label>
+                        <input class="modal-content__input" type="email" name="email" id="e-mail">
+                        <svg class="modal-content__icon" width="15" height="12">
                             <use href="./image/icons.svg#icon-email"></use>
                         </svg>
                     </div>
-                    <label for="textfield">Коментар</label>
-                    <textarea class="for-comments" name="contacts" id="textfield" rows="5" placeholder="Введіть текст"></textarea>
+                    <label class="modal-content__comments-label" for="textfield">Коментар</label>
+                    <textarea class="modal-content__comments-area" name="contacts" id="textfield" rows="5" placeholder="Введіть текст"></textarea>
                     
                     <div class="policy">
-                        <label class="checkbox">
-                            <input class="policy-checkbox" type="checkbox" name="contacts">
-                            <span class="check-box"></span>
-                            Погоджуюся з розсилкою та приймаю <a href="#"> Умови договору</a>
+                        <label class="policy__label">
+                            <input class="policy__input" type="checkbox" name="contacts">
+                            <span class="policy__text"></span>Погоджуюся з розсилкою та приймаю <a class="policy__link" href="#"> Умови договору</a>
                         </label>
                     </div>
                     
-                    <button type="submit" class="send-button">Відправити</button>
+                    <button class="modal-content__button" type="submit" class="send-button">Відправити</button>
                 </form>
             </div>
         </div>
