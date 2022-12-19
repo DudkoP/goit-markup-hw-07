@@ -5,6 +5,15 @@
     margin-right: auto;
 }
 
+body {
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color: $white;
+    color: $maincolor;
+}
+
 h1,
 h2,
 h3,
