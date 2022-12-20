@@ -275,6 +275,13 @@ summary {
   margin: -1px;
 }
 
+.main__content, .footer__content, .our-works, .advantages, .hero-content, .header__content {
+  width: 1200px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body {
   /* font-family: 'Raleway', sans-serif; */
   font-family: "Roboto", sans-serif;

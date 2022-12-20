@@ -1,5 +1,4 @@
 .advantages{
-    
     @extend %container;
 
     &__list{
@@ -16,15 +15,10 @@
     }
 
     &__card{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include centeredFlex(flex);
         width: 270px;
         height: 140px;
         background-color: $secondarybgcolor;
-    }
-
-    &__icon{
     }
 
     &__title{
