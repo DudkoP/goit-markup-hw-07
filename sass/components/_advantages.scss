@@ -1,4 +1,6 @@
 .advantages{
+    
+    @extend %container;
 
     &__list{
         display: flex;

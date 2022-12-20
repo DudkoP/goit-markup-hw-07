@@ -13,7 +13,8 @@
 }
 
 .hero-content{
-
+    @extend %container;
+    
     &__title{
         font-style: normal;
         font-weight: 900;
