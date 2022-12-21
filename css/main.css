@@ -599,7 +599,7 @@ a {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: var(--color-2121);
+  color: #212121;
 }
 .team-block__list {
   display: -webkit-box;
